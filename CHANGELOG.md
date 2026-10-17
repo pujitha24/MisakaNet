@@ -7,6 +7,21 @@ All notable changes to the Misaka Network project are documented here.
 
 ---
 
+## [2.48.0](https://github.com/Ikalus1988/MisakaNet/compare/v2.47.0...v2.48.0) (2026-10-17)
+
+
+### Features
+
+* **lessons:** adopt [#3422](https://github.com/Ikalus1988/MisakaNet/issues/3422) and [#3426](https://github.com/Ikalus1988/MisakaNet/issues/3426) — JS regex escaping, ROBOGUIDE plugin unavailable ([#3437](https://github.com/Ikalus1988/MisakaNet/issues/3437)) ([6dc4f7c](https://github.com/Ikalus1988/MisakaNet/commit/6dc4f7cacf197d202bb4153574c09b10134de328))
+
+
+### Bug Fixes
+
+* **bounty:** the issue title no longer promises a lesson the task does not ask for ([#3439](https://github.com/Ikalus1988/MisakaNet/issues/3439)) ([a4e8c41](https://github.com/Ikalus1988/MisakaNet/commit/a4e8c415a8091e4e348125f8e23fa8d31c0c6ebe))
+* **codeql:** remove the taint from the plan printer instead of silencing it ([#3442](https://github.com/Ikalus1988/MisakaNet/issues/3442)) ([8f8bd11](https://github.com/Ikalus1988/MisakaNet/commit/8f8bd11e88fbcb109cbc3b172ba6bf5446163d98))
+* **health:** classify this isolate's KV error when the global row cannot be read ([#3440](https://github.com/Ikalus1988/MisakaNet/issues/3440)) ([67e7a4e](https://github.com/Ikalus1988/MisakaNet/commit/67e7a4eb6454620a450cf5ac271e3684ba506ca8))
+* **intake:** classify the "gap probe" self-declared probe ([#3284](https://github.com/Ikalus1988/MisakaNet/issues/3284)) ([#3429](https://github.com/Ikalus1988/MisakaNet/issues/3429)) ([a664815](https://github.com/Ikalus1988/MisakaNet/commit/a6648150971c34edcfe5ed3bb96157bf26f98532))
+
 ## [2.47.0](https://github.com/Ikalus1988/MisakaNet/compare/v2.46.0...v2.47.0) (2026-10-17)
 
 
